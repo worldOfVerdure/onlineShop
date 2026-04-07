@@ -21,5 +21,6 @@ they both depend on the shoppingCart state variable.
 Adding a default value can add autocompleting using the dot operator or even object destructuring.
 */
 export const CartContext = createContext({
-  items: [] //Here, we will store our shopping cart items.
+  items: [], //Here, we will store our shopping cart items.
+  addItemToCart: () => {}
 });
